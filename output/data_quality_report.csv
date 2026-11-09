@@ -1,0 +1,13 @@
+issue_type,affected_rows,affected_orders,action_taken,impact,該当id
+all_duplicate,2,1,partial_exclusion,重複する2行があり片方を削除し1行に,O00023
+invalid_quantity,1,1,partial_exclusion,量が0の部分のみ売上計算から除外,O00007
+invalid_quantity,1,1,exclude,売上計算から除外,O00034
+missing_unit_price,1,1,exclude,売上計算から除外,O00051
+missing_ordered_at,1,1,partial_exclusion,月別売上のみ除外,O00045
+invalid_ordered_at,1,1,partial_exclusion,不正日付2026-09-31.月別売上のみ除外,O00080
+duplicate_order_conflict,2,1,exclude,O00177を注文単位で除外,O00177
+missing_order_reference,1,1,exclude,対応する注文情報がない,O99999
+missing_order_reference,2,1,exclude,O00178を注文単位で除外,O00178
+missing_product_master,1,1,retained,P999を売り上げに含める,O00084
+missing_customer_master,1,1,retained,C9999を売り上げに含める、不明カテゴリとして集計,O00012
+out_of_scope_date,1,1,excluded,集計からは除外,O00241
