@@ -32,6 +32,13 @@ ECサイトの注文・顧客・商品データを使用し、2026年4月〜9月
 | データ品質レポート | 異常データと処理方針の記録 |
 | Python Notebook | データ処理からレポート作成までの実行コード |
 
+### 分析レポートのサンプル
+
+- [月別売上推移レポート（PDF）](output/monthly_summary_sales_output.pdf)
+- [商品別売上レポート（PDF）](output/product_sales_summary_output.pdf)
+- [媒体別売上レポート（PDF）](output/media_sales_report_output.pdf)
+- [データ品質レポート（CSV）](output/data_quality_report.csv)
+
 **使用技術：** Python / pandas / NumPy / matplotlib / seaborn / JupyterLab
 
 本リポジトリでは、データの読み込みからクリーニング、分析、可視化、レポート出力までの一連の処理を確認できます。
